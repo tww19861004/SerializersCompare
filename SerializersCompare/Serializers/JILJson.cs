@@ -12,7 +12,7 @@ namespace SerializersCompare.Serializers
         public JILJson()
         {
             IsBinarySerializer = false;
-            SerName = "JIL";
+            SerName = "JIL-JSON";
         }
 
         public override dynamic Serialize(object thisObj)
